@@ -109,12 +109,13 @@
             PrintButton.FlatStyle = FlatStyle.Flat;
             PrintButton.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
             PrintButton.ForeColor = Color.White;
+            PrintButton.Image = (Image)resources.GetObject("PrintButton.Image");
             PrintButton.ImageAlign = ContentAlignment.MiddleLeft;
             PrintButton.Location = new Point(3, 228);
             PrintButton.Name = "PrintButton";
             PrintButton.Size = new Size(132, 45);
             PrintButton.TabIndex = 6;
-            PrintButton.Text = "Manage Admins";
+            PrintButton.Text = "     Edit Admins";
             PrintButton.UseVisualStyleBackColor = false;
             PrintButton.Click += PrintButton_Click;
             // 

@@ -4,7 +4,3 @@ C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\bin\Debug\Books
 C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\BookstoreDatabase.sqlproj.AssemblyReference.cache
 C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\BookstoreDatabase.dll
 C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\BookstoreDatabase.pdb
-C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\Model.xml
-C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\refactor.xml
-C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\postdeploy.sql
-C:\Users\LEGIONRED\Downloads\BookstoreDatabase\BookstoreDatabase\obj\Debug\predeploy.sql

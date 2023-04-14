@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageAdmins));
             panel1 = new Panel();
             ManageAdminsDGV = new DataGridView();
             panel2 = new Panel();
@@ -45,11 +46,13 @@
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ManageAdminsDGV).BeginInit();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -77,6 +80,7 @@
             // panel2
             // 
             panel2.BackColor = Color.MidnightBlue;
+            panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
@@ -89,7 +93,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(40, 8);
             label1.Name = "label1";
             label1.Size = new Size(156, 25);
             label1.TabIndex = 0;
@@ -245,6 +249,16 @@
             label2.TabIndex = 0;
             label2.Text = "First Name:";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(18, 13);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(16, 16);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
             // ManageAdmins
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -262,6 +276,7 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -284,5 +299,6 @@
         private Button EditButton;
         private Button AddButton;
         private Button DeleteButton;
+        private PictureBox pictureBox1;
     }
 }

@@ -22,7 +22,7 @@ namespace BookShelfUI
         SqlDataAdapter da;
         DataTable dt;
 
-        
+
         //Initializes and Populates the DataGridView with Data from ItemsDB
         public void LoadDataToGrid()
         {
@@ -56,7 +56,7 @@ namespace BookShelfUI
         {
             AddItemForm AIForm = new AddItemForm(this);
             AIForm.Show();
-            
+
 
         }
 

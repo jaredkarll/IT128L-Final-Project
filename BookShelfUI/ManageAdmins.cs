@@ -26,7 +26,7 @@ namespace BookShelfUI
         SqlDataAdapter da;
         DataTable dt;
 
-        
+
         private DataGridViewRow selectRow;
 
 
